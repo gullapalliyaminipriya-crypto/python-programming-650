@@ -23,14 +23,19 @@ The program must reject invalid seat assignments and ensure that reserved seats 
 
 ## 3. Flowchart (Mermaid TD)
 ```mermaid
-
-    A[(Start)] --> B(1 (Step 1))
-    B --> C{(Decision?)}
-    C --  --> D[ 1 (Result 1)]
-    C --  --> E[ 2 (Result 2)]
-    D --> F[ (End)]
-    E --> F
+flowchart TD
+    A([Start]) --> B[/Enter vehicle category/]
+    B --> C[/Enter offence type/]
+    C --> D[/Enter repeat offence status/]
+    D --> E[Calculate fine]
+    E --> F{Disqualification condition?}
+    F -- Yes --> G[Show disqualification warning]
+    F -- No --> H[No disqualification]
+    G --> I[/Display total penalty/]
+    H --> I
+    I --> J([Stop])
 ```
+
 ## 4. Python Source Code
 
 ```
