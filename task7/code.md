@@ -23,7 +23,7 @@ The program must reject invalid seat assignments and ensure that reserved seats 
 
 ## 3. Flowchart (Mermaid TD)
 ```mermaid
-graph TD
+
     A[(Start)] --> B(1 (Step 1))
     B --> C{(Decision?)}
     C --  --> D[ 1 (Result 1)]
