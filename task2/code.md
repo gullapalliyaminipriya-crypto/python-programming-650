@@ -73,4 +73,3 @@ Percentage: 60.67 %
 Classification: FIRST CLASS
 ```
 
-Note: The program uses an example policy: up to 5 grace marks per subject, with classification thresholds of 50%, 60%, and 75%. Adjust these values to match your college's rules.
