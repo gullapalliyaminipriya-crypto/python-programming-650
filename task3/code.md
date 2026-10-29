@@ -81,4 +81,4 @@ Threshold first reached on day: 2
 Final water level: 90.00
 ```
 
-Note: The overflow and shortage messages appear only when those conditions occur. In this example, the tank reaches its capacity on Day 3, so the program should also print `Overflow detected!` on that day.
+
