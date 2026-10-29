@@ -94,4 +94,3 @@ Final Bill: 4230.0
 Patient Classification: Medium Payment
 ```
 
-Note: The 10% concession and payment categories are example rules for this project. You can change them to match the payment policy given by your teacher.
